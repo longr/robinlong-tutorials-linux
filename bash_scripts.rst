@@ -2,6 +2,7 @@
 Bash Scripts
 ********************
 
+One of the beauties of using the command line is that we can automate the more tidious or repetative tasks.  We do this by using scripts. These are exactly what they say they are, scripts for the command line to follow.  This chapter will introduce the idea of scripts, how to run them, and some of the features of bash we may want to use in them.  Hopefully I will write a more comprehensive tutorial on bash scripts and the more advanced features at some point. Please let me know if you would be interested as this will help raise the priority of it in my ever increasing to-do list.
 
 Overview
 ========
