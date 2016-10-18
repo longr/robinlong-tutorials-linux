@@ -73,9 +73,9 @@ The shell is how you interact with the computer and give it commands to run.  Yo
 Commands
 --------
 
-* Left and right arrow keys - navigate along text on the command line.
-* Up and down arrow keys - browse through previously entered commands.
-* `Ctrl + r` - Search back through previous commands.
+* **Left and right arrow keys** - navigate along text on the command line.
+* **Up and down arrow keys** - browse through previously entered commands.
+* ``Ctrl + r`` - Search back through previous commands.
    
 Further Reading
 ===============
