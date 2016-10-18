@@ -2,6 +2,7 @@
 Finding files
 *********************
 
+At somepoint we will lose something, or know that there is something we want, but not know where it is.  Linux has very powerful tools built into it to find files and even things in files.  This chapter will give a brief overview of how to find files based on their names and other attributes (but not contents).  
 
 Overview
 ========
