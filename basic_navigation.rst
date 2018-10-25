@@ -215,7 +215,15 @@ Commands
 * ``ls`` - lists files and directories.
 * ``cd`` - move between directories.
 
+Exercise
+========
+
+* Use ``ls`` and ``cd`` to look and move around the system.  Don't forget to use relative and absolute paths.
+* How many way are there to get to your home area? try all of them.
+* Practise using tab completion
+  
 Further Reading
 ===================
 
-`Introduction to Linux - Chapter 3. About files and the file system <http://www.tldp.org/LDP/intro-linux/html/chap_03.html`_
+`Introduction to Linux - Chapter 3. About files and the file system <http://www.tldp.org/LDP/intro-linux/html/chap_03.html>`_
+

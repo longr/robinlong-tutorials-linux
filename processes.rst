@@ -178,7 +178,14 @@ Commands
 * ``kill <pid>`` or ``kill %<job id>`` will terminate a process based on process or job id.
 * ``bg %<job id>`` and ``fg %<job id`` will move a program between background and foreground.
 * pressing ``ctrl + z`` will send a foreground job to the background.
-   
+
+Exercises
+=========
+* What is the process using most resources on your system?
+* Open nano, and then send it to the background.
+* Bring it back to the foreground, and then send it back again.
+* List processes running in your terminal, and terminate the one that is running nano.
+  
 Further Reading
 ===============
 

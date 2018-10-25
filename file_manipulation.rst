@@ -204,6 +204,18 @@ Concepts
 
 * **No undo**.  There is no undo when we delete files and directories on the command line.
 
+Exercises
+=========
+
+* Using the command ``touch``, create a blank file.
+* Rename the file.
+* Create a copy of the file.
+* Create a new directory.
+* Move the file into the new directory.
+* Delete the directory using ``rmdir``.
+
+  * Why did this fail?
+  * Which two methods could you use to delete the directory?
 
 Further Reading
 ======================

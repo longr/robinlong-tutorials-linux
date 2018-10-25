@@ -148,8 +148,8 @@ Connect to remote host
 
 Transfer files
 ^^^^^^^^^^^^^^^
-* `scp source destination`
-* `rsync -vaz -e ssh source destination`
+* ``scp source destination``
+* ``rsync -vaz -e ssh source destination``
 
 Screen
 ^^^^^^^
@@ -160,6 +160,13 @@ Screen
 * Get list of screen sessions: `screen -ls`
 * To kill a session: `Ctrl+a k`
 
+Exercises
+=========
+
+* Try opening, detaching, reattaching and then killing at least 2 screen sessions.
+* If you have access, copy a file to a remote machine, and then backagain.
+  
+  
 Further Reading
 ===============
 

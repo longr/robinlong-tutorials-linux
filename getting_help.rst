@@ -115,7 +115,17 @@ Commands
 * ``/ <pattern>`` to search for a pattern whilst in a man page.
   - ``n`` - to move to the next pattern whilst searching
   - ``shift + n`` - to move to the previous pattern whilst searching
-   
+
+Exercises
+=========
+
+Using the man pages, find out how to modify ``ls`` to:
+
+* Print file sizes.
+* Print file sizes in a human readable format.
+* Sort the files by size, largets first (you might want to have the size displayed so you can confirm this)
+* Sort the files by size, smallest first.
+    
 Further Reading
 ===============
 

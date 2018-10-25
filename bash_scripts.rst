@@ -235,8 +235,15 @@ Concepts
  
 Commands
 --------
-* `` mvVar="some value"`` - variables are created by specifying a variable name, followed by the equals sign and then the value.
+* ``mvVar="some value"`` - variables are created by specifying a variable name, followed by the equals sign and then the value.
 * ``$myVar`` - variables are accessed by placing a  ``$`` in front of their name.
+
+Exercise
+========
+
+* Write a simple script that takes your surname (family name) as input, and prints it to the screen with todays date.
+* Write a simple script that loops over all the files in your home directory and prints them to the screen.
+* Write a script that takes a single filename as input, and prints out its filename if it exists, and "Cannot find file x" if it does not.  You may wish to look at the **if statments** in further reading to find the correct check.
   
 Further Reading
 ===============

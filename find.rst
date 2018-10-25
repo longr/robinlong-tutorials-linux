@@ -10,8 +10,9 @@ Overview
 In this chapter you will learn:
 
 * how to use the find command to search for files.
-* how to use the locate command to search for files.
-* how to find where binaries are located.
+
+.. * how to use the locate command to search for files.
+.. * how to find where binaries are located.
 
 Finding files with ``find``
 ===========================
@@ -100,7 +101,30 @@ We could also combine tests to look for files bigger than 500mb and older than 5
 
 There are many more tests that can be used with find, a comprehensive list is given in the man pages.
 
-.. talk about locate?
+Finding files quickly with ``locate``
+=====================================
+
+The ``locate`` command is faster than ``find``, however this comes at a price.  Locate works by searching through a database which is usually built everynight.  This means that is does not usually find newly created files, or those on external devices.  To find a file you just type:
+
+.. code-block:: bash
+   :linenos:
+
+   $ locate pattern
+
+Pattern can be a file name, a pattern including globbing character. Locate matches against the full path a file name, so if you use globbing characters, but do not start the expression with a full path or wildcard, you will not match anything.
+
+Which
+=====
+
+Sometimes, especially when writing a script it is useful to know where the command (such as ``ls``) is actualy located. This means you can then run the command with out any local modifications (you can configure your shell to add certain flags to a command by default, unless you then run the command from its full path, those flags will always be included).
+
+The ``which`` command will tell you the full path of any command on your system (it will also tell you which flags are enabled by default).
+
+The syntax is just ``which <command>``.
+
+.. talk about which?
+
+
 
 Summary
 =======
@@ -108,10 +132,24 @@ Summary
 Concepts
 --------
 
-  
+* Meta-data about files, such as access and modification times is searchable. We can use this to find files of a certain age, or access within the last n minutes.
+
 Commands
 --------
-   
+
+* ``find path_to_search [options]`` 
+
+  
+Exercises
+=========
+
+* Find all files ending with **.txt** in your home directory.
+* Find all files greater than 5Mb in size in your home directory.
+* Find all files less than 10 minutes old in your home directory (use ``ls`` to verfiy their age).
+* Find all files in your home directory that have not been accessed for 1 week.
+* Have a play with ``locate`` and ``which``.
+
+
 Further Reading
 ===============
 

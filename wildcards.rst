@@ -142,6 +142,16 @@ Commands
 * **[!]** - represents any character not in range or set.
 * **\\** - this is used to escape any of the above characters so that you can search for them in a filename.
 
+Exercises
+=========
+
+The following questions ask you to consider what globbing pattern would match the following groups of files.  Feel free to create the files using the ``touch`` command, and then use ``ls`` and globbing to try and match.
+
+* What pattern would match any jpeg, or png file (but not files with other extensions)?
+* What pattern would match only files that started with two letters followed by a number?
+* What pattern would match files that started with only a capital letter?
+* Look around your home directory, and try matching files with a few different patterns.
+
 Further Reading
 ===============
 

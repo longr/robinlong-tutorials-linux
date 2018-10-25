@@ -2,14 +2,14 @@
 Editors
 ****************
 
-At some point we are going to want to create files on the command line and fill them with text.  To do this we will need a text editor. There are many editors on linux, and many `arguments <https://xkcd.com/378/>`_. If you use linux with a GUI there are many graphical editors that you can use (Kate and gEdit for example), however the command line editors are generally more powerful, and are very useful when working remotely.  The main editors used are emacs and vim, whilst I might add tutorials for these later for now I will focus on nano as it is easier to use than either.
+At some point we are going to want to create files on the command line and fill them with text.  To do this we will need a text editor. There are many editors on linux, and many `arguments <https://xkcd.com/378/>`_. If you use linux with a GUI there are many graphical editors that you can use (Kate and gEdit for example), however the command line editors are generally more powerful, and are very useful when working remotely.  The main editors used are emacs and vim, whilst I might add tutorials for these later for now I will focus on nano as it is easier to use than either (for simple editting).
 
 Overview
 ========
 
 In this chapter you will learn:
 
-* what nanois.
+* what nano is.
 * what a text editor is.
 * basic commands for nano.
 
@@ -123,7 +123,14 @@ Commands
 * ``M-U`` - undo a change.
 * ``M-U`` - redo a change.
 
-
+Exercises
+=========
+* Use nano to create a files with a few lines of text.
+* Using find and replace, make sure every sentance ends with the word *penguin*.
+* Save the file.
+* Move the first line to the bottom of the file.
+* Exit ``nano``.
+  
 Further Reading
 ===============
 

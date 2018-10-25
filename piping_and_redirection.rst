@@ -175,8 +175,13 @@ Commands
 * ``2>\&1`` Redirect stderr to stdout.
 * ``|`` Send output from one command as an input to another.
 
-.. Exercises
-.. ===================
+Exercises
+===================
+#. Using ``ls`` and redirection, create a file listing all files and directories in your home directory.
+#. Add to the file you created in the previous question, the contents of ``/``. Do not overwrite your previous entry.
+#. Using the command ``ls / /nonexistantdir``, redirect standard out to one file, and stderr to another.
+#. This time send them to the same file.
+
 
 Further Reading
 ===================

@@ -23,8 +23,8 @@ Contents:
    :maxdepth: 1
 
    introduction
-   files_and_more
    basic_navigation
+   files_and_more
    getting_help
    file_manipulation
    wildcards
