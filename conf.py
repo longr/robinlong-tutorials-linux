@@ -71,7 +71,7 @@ html_logo = 'logo-lancs.png'
 
 #source_suffix = '.rst'
 
-master_doc = 'index'
+#master_doc = 'index'
 pygments_style = 'sphinx'
 #htmlhelp_basename = 'SphinxRestMemodoc'
 
