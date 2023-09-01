@@ -102,8 +102,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Tutorial/Linux'
-copyright = '2016, Robin Long'
+#project = 'Tutorial/Linux'
+#copyright = '2016, Robin Long'
 
 
 # extract versioning from git tags
@@ -117,7 +117,7 @@ copyright = '2016, Robin Long'
 
 
 pygments_style = 'sphinx'
-htmlhelp_basename = 'SphinxRestMemodoc'
+#htmlhelp_basename = 'SphinxRestMemodoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
