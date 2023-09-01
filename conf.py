@@ -122,37 +122,3 @@ htmlhelp_basename = 'SphinxRestMemodoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-'papersize': 'a4paper',
-
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
-
-# Additional stuff for the LaTeX preamble.
-#'preamble': '',
-}
-latex_documents = [
-  ('index', 'SphinxRestMemo.tex', 'Sphinx/Rest Memo',
-   'Marc Zonzon', 'manual'),
-]
-man_pages = [
-    ('index', 'sphinxrestmemo', 'Sphinx ReST Memo',
-     ['Marc Zonzon'], 1)
-]
-texinfo_documents = [
-  ('index', 'SphinRestMemo', 'Sphinx/reST Memo',
-   'Marc Zonzon', 'SphinRestMemo', 'Sphinx/reST Memo.',
-   'Miscellaneous'),
-]
-epub_title = 'Introduction to Linux'
-epub_author = 'Robin Long'
-epub_publisher = 'Robin Long'
-epub_copyright = '2016, Robin Long'
-
-
-
-extlinks = {
-    'sphinx': ('http://sphinx-doc.org/latest/%s', 'Sphinx: '),
-    'restref': ('http://docutils.sourceforge.net/docs/ref/rst/%s', 'ReST Référence: ')
-}
