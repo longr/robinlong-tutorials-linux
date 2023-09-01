@@ -97,14 +97,14 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
-extensions = [
-    'sphinx.ext.autodoc', 'sphinx.ext.intersphinx', 'sphinx.ext.todo',
-    'sphinx.ext.ifconfig', 'sphinx.ext.extlinks', 'sphinx.ext.imgmath',
-    'sphinx.ext.graphviz']
+#extensions = [
+#    'sphinx.ext.autodoc', 'sphinx.ext.intersphinx', 'sphinx.ext.todo',
+#    'sphinx.ext.ifconfig', 'sphinx.ext.extlinks', 'sphinx.ext.imgmath',
+#    'sphinx.ext.graphviz']
 #  'sphinx.ext.viewcode' output a separate html page for each .. class::, .. function:: etc.
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+#templates_path = ['_templates']
 
 source_suffix = '.rst'
 
@@ -139,7 +139,7 @@ release = '-'.join(commit)
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+#exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -172,7 +172,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 # html_theme = 'default'
-html_theme = theme
+###html_theme = theme
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -206,7 +206,7 @@ html_css_files = ["_static/style.css"]
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = None
+#html_logo = None
 #html_logo = 'logo-lancs.png'
 
 # The name of an image file (within the static path) to use as favicon of the
@@ -217,7 +217,7 @@ html_logo = None
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -421,6 +421,8 @@ epub_copyright = '2016, Robin Long'
 # Example configuration for intersphinx: refer to the Python standard library.
 #intersphinx_mapping = {'http://docs.python.org/': None}
 ########intersphinx_mapping = {'python': ('http://docs.python.org/3', None)}
+
+
 extlinks = {
     'sphinx': ('http://sphinx-doc.org/latest/%s', 'Sphinx: '),
     'restref': ('http://docutils.sourceforge.net/docs/ref/rst/%s', 'ReST Référence: ')
