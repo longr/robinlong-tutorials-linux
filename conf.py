@@ -69,53 +69,9 @@ html_static_path = ["_static"]
 html_logo = 'logo-lancs.png'
 
 
-
-
-#import sys
-#import os
-
-# on_rtd is whether we are on readthedocs.org
-#on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
-# theme: one among 'default', 'bootstrap','cloud', 'sphinxtrap',
-# 'readability', 'sphinx_rtd_theme'
-# theme = 'sphinxtrap'
-#theme = 'sphinx_rtd_theme'
-#if not on_rtd:
-#    theme = 'sphinx_rtd_theme'
-#if theme == 'cloud':
-#    import cloud_sptheme
-#elif theme == 'bootstrap':
-#    import sphinx_bootstrap_theme
-#elif theme == 'sphinxtrap':
-#    import sphinxtrap
-#elif theme == 'readability':
-#    import readability
-#elif theme == 'sphinx_rtd_theme':
-#    import sphinx_rtd_theme
-
-#sys.path.insert(0, os.path.abspath('.'))
-
-
-source_suffix = '.rst'
+#source_suffix = '.rst'
 
 master_doc = 'index'
-
-# General information about the project.
-#project = 'Tutorial/Linux'
-#copyright = '2016, Robin Long'
-
-
-# extract versioning from git tags
-#from subprocess import Popen, PIPE
-#commit = Popen(["git", "describe","--tags", ], stdout=PIPE).communicate()[0]
-#commit = commit.decode().strip().split('-')
-## The short X.Y version.
-#version = commit[0]
-## The full version, including alpha/beta/rc tags.
-#release = '-'.join(commit)
-
-
 pygments_style = 'sphinx'
 #htmlhelp_basename = 'SphinxRestMemodoc'
 
