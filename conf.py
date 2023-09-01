@@ -139,18 +139,21 @@ html_theme = theme
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
-if theme == 'cloud':
-    html_theme_path = [cloud_sptheme.get_theme_dir()]
-elif theme == 'bootstrap':
-    html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
-elif theme == 'sphinxtrap':
-    html_theme_path = [sphinxtrap.get_theme_dir()]
-elif theme == 'readability':
-    readability_path = os.path.dirname(os.path.abspath(sphinxtheme.__file__))
-    relative_path = os.path.relpath(readability_path, os.path.abspath('.'))
-    html_theme_path = [relative_path]
-elif theme == 'sphinx_rtd_theme':
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#if theme == 'cloud':
+#    html_theme_path = [cloud_sptheme.get_theme_dir()]
+#elif theme == 'bootstrap':
+#    html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+#elif theme == 'sphinxtrap':
+#    html_theme_path = [sphinxtrap.get_theme_dir()]
+#elif theme == 'readability':
+#    readability_path = os.path.dirname(os.path.abspath(sphinxtheme.__file__))
+#    relative_path = os.path.relpath(readability_path, os.path.abspath('.'))
+#    html_theme_path = [relative_path]
+#elif theme == 'sphinx_rtd_theme':
+#    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+html_theme = "sphinx_rtd_theme"
+#html_css_files = ["css/custom.css",
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
