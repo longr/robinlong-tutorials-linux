@@ -75,7 +75,7 @@ import sys
 import os
 
 # on_rtd is whether we are on readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+#on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 # theme: one among 'default', 'bootstrap','cloud', 'sphinxtrap',
 # 'readability', 'sphinx_rtd_theme'
@@ -94,7 +94,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 #elif theme == 'sphinx_rtd_theme':
 #    import sphinx_rtd_theme
 
-sys.path.insert(0, os.path.abspath('.'))
+#sys.path.insert(0, os.path.abspath('.'))
 
 
 source_suffix = '.rst'
