@@ -153,7 +153,7 @@ html_theme = theme
 #    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 html_theme = "sphinx_rtd_theme"
-#html_css_files = ["css/custom.css",
+html_css_files = ["_static/style.css"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
